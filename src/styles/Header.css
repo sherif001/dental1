@@ -1,0 +1,37 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;  /* وضع النص والصورة في ترتيب عمودي */
+  align-items: center;  /* محاذاة العناصر في المنتصف */
+  text-align: center;
+  padding: 2rem;
+  gap: 40px; /* مسافة بين النص والصورة */
+}
+
+.hero-info {
+  max-width: 700px;  /* الحد الأقصى لعرض النص */
+}
+
+.hero-info h1 {
+  font-size: 2rem;
+  color: #1e1e28;
+  margin-bottom: 20px;
+}
+
+.hero-info p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;  /* أقصى عرض للصورة */
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

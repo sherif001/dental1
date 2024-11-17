@@ -1,0 +1,35 @@
+.price-list-page {
+    padding: 2rem;
+    text-align: center;
+    color: #1e1e28;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #f2613f;
+    margin-bottom: 1.5rem;
+  }
+  
+  .price-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #ffffff;
+  }
+  
+  .price-table th,
+  .price-table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .price-table th {
+    background-color: #f2613f;
+    color: white;
+  }
+  
+  .price-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
